@@ -2,7 +2,7 @@
 
 1. 환경 셋팅
 
-기본 전제> git과 anacoda가 설치되어 있어야 한다. 
+기본 전제> git과 anaconda가 설치되어 있어야 한다. 
 
 ```shell
 (저장소 cloning)
