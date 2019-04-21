@@ -1,6 +1,7 @@
 # deepnlp
 
 1. 환경 셋팅
+
 기본 전제> git과 anacoda가 설치되어 있어야 한다. 
 
 ```shell
@@ -20,3 +21,4 @@ $ conda env create -f environment.yml
 위의 환경셋팅이 끝나면 
 anacoda navigator에서 deepnlp 가상환경을 찾아 jupyter notebook 실행
 ```
+<img src="img/anaconda.png" width=600 />
