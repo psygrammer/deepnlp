@@ -22,3 +22,14 @@ $ conda env create -f environment.yml
 anacoda navigator에서 deepnlp 가상환경을 찾아 jupyter notebook 실행
 ```
 <img src="img/anaconda.png" width=600 />
+
+3. 설치 확인
+
+```shell
+실행된 jupyter notebook 웹 브라우저를 통해 
+소스가 있는 디렉토리로 이동. 
+그리고 setup_check.ipynb 노트북을 Restart & Run All
+
+모든 패키지가 이상없이 버전 정보가 나오면 성공
+```
+<img src="img/setup_check.png" width=600 />
