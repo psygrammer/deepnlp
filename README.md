@@ -8,7 +8,7 @@
 (저장소 cloning)
 $ git clone https://github.com/psygrammer/deepnlp.git
 
-(소스 루트 디렉토리로 이동 후)
+(소스 루트 디렉토리로 이동)
 $ cd deepnlp
 
 (실습용 아나콘다 환경셋팅을 위해 다음 명령 실행)
@@ -33,3 +33,15 @@ anacoda navigator에서 deepnlp 가상환경을 찾아 jupyter notebook 실행
 모든 패키지가 이상없이 버전 정보가 나오면 성공
 ```
 <img src="img/setup_check.png" width=600 />
+
+4. 환경 업데이트
+
+* 이후 저장소의 소스가 변경되면 git pull을 통해 업데이트를 하지만
+* 설치 패키지도 업데이트를 해야 한다. 그럴 때는 아래처럼 하면 된다.
+* 단 새로 설치된 패키지들에 대한 정보가 environment.yml에 업데이트 되었다고 가정한다. 
+
+```shell
+$ source activate deepnlp
+$ cd {소스 설치된 디렉토리}
+$ conda env update -f environment.yml
+```
